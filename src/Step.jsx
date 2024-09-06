@@ -39,7 +39,7 @@ const Step = ({ step, resetDetailLevel, setResetDetailLevel }) => {
       <div className="hints">
         {hintIndex >= 0 && <p>{step.hints[hintIndex]}</p>}
         {hintIndex < step.hints.length - 1 && (
-          <button onClick={showHint}>Afficher un indice</button>
+          <button onClick={showHint}>Afficher la solution</button>
         )}
       </div>
     </div>

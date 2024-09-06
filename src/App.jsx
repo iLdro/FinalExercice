@@ -12,6 +12,11 @@ const stepsData = [
     details: ["Détail A", "Détail B", "Détail C"],
     hints: ["Indice 1 pour l'étape 2", "Indice 2 pour l'étape 2"]
   },
+  {
+    title: "Étape 3",
+    details: ["Détail X", "Détail Y", "Détail Z"],
+    hints: ["Indice 1 pour l'étape 3", "Indice 2 pour l'étape 3"]
+  }
   // Ajoute plus d'étapes si nécessaire
 ];
 

@@ -9,8 +9,8 @@ const stepsData = [
   },
   {
     title: "Hearder",
-    details: ["Créer un header"],
-    hints: ["Créer une balise header dans le body"]
+    details: ["Créer un header et lui ajouter un id header"],
+    hints: ["Créer une balise header dans le body et lui mettre id=\"header\""]
   },
   {
     title: "Titre",
@@ -62,6 +62,11 @@ const stepsData = [
     details: ["Ajouter un footer avec le texte suivant : &copy; 2024 Mon site avec Train d'Avenir"],
     hints: ["Utilisez les balises <footer> et <p>"]
   },
+  {
+    title : ["Ajouter un id au footer"],
+    details : ["Ajouter l'id footer au footer"],
+    hints : ["<footer id=\"footer\""]
+  },
 
 
 
@@ -77,9 +82,34 @@ const stepsData = [
 
   {
     title: "Étape CSS",
-    details: ["ModifierL."],
-    hints: ['Ajouter la ligne <link rel="stylesheet" href="style.css"']
+    details: ["Appliquer la couleur #4CAF50 au fond au hearder"],
+    hints: ['a.	Pour modifier le header, écrire « header » en tant que sélecteur, puis ouvrir des accolades { }. Dans les accolades, écrire la propriété « background-color » pour modifier la couleur du fond. Appliquer la couleur à « #4CAF50 ».']
   },
+  {
+    title: "Etape CSS",
+    details:["Mettre le texte du header en blanc"],
+    hints:["Pour modifier la couleur du texte, écrire la propriété « color » dans les accolades du sélecteur « header ». Appliquer la couleur à « white ». "]
+  },
+  {
+    title: "Etape CSS",
+    details:["Changer notre class title définit précédemment pour que le text ait une taille de 24px, et une margin bottom de 10px"],
+    hints : ["Ouvrir des accolades après le sélecteur « .title ». Écrire la propriété « font-size » pour modifier la taille du texte. Appliquer la taille à « 24px ». Écrire la propriété « margin-bottom » pour modifier la marge en bas du texte. Appliquer la marge à « 10px ». "]
+  },
+  {
+    title: "Etape CSS",
+    details:["Crer un grouping selector pour le header, footer et section"],
+    hints : ["Pour créer un groupe de sélecteurs, écrire les sélecteurs « header, footer, section » séparés par des virgules. Ouvrir des accolades après les sélecteurs. Écrire les propriétés « font-family » et « color » pour modifier la police et la couleur du texte. Appliquer la police à « Arial » et la couleur à « black ». "]
+  },
+  {
+    title: "Etape CSS",
+    details:["Centrer le texte dans le groupe de sélecteurs"],
+    hints : ["Pour centrer le texte, écrire la propriété « text-align » dans les accolades du groupe de sélecteurs. Appliquer l’alignement à « center ». "]
+  },
+  {
+    title: "Etape CSS",
+    details:["Ajouter au sélecteur des marges et du padding de 20px"],
+    hints : [""]
+  }
 
   // Ajoute plus d'étapes si nécessaire
 ];
